@@ -1,76 +1,82 @@
-Inception Project
 
-📋 Project Overview
-Inception is a system administration project designed to enhance your understanding of containerization and infrastructure management using Docker. The objective is to set up a virtual machine with multiple services using Docker and Docker Compose.
+# Inception Project
 
-🛠 Setup Instructions
-Step 1: Clone the Repository
-bash
-Copy code
-git clone git@github.com:yourusername/Inception.git
-Step 2: Run the Project
-bash
-Copy code
+## 📋 Project Overview
+**Inception** is a system administration project designed to enhance your understanding of containerization and infrastructure management using **Docker**. The objective is to set up a virtual machine with multiple services using **Docker** and **Docker Compose**.
+
+---
+
+## 🛠 Setup Instructions
+
+### Step 1: Clone the Repository
+\`\`\`bash
+git clone git@github.com:imahri/inception_done.git
+\`\`\`
+
+### Step 2: Run the Project
+\`\`\`bash
 make
-Step 3: Access the Services
-Visit the WordPress website:
-https://localhost:443
+\`\`\`
 
-Visit the Adminer interface for database management:
-http://localhost:8080
+### Step 3: Access the Services
 
-Visit the Portainer interface for Docker management:
-http://localhost:9443
+- Visit the **WordPress** website:  
+  [https://localhost:443](https://localhost:443)
 
-📚 Docker Components
-• Docker - Open-source platform for deploying, scaling, and managing applications in containers.
+- Visit the **Adminer** interface for database management:  
+  [http://localhost:8080](http://localhost:8080)
 
-• Docker Compose - A tool for defining and running multi-container applications with a YAML configuration file.
+- Visit the **Portainer** interface for Docker management:  
+  [http://localhost:9443](http://localhost:9443)
 
-• Docker Engine - The core component responsible for running and managing Docker containers.
+---
 
-• Containerd - Lightweight, extensible container runtime for managing containers' lifecycle.
+## 📚 Docker Components
 
-• PID 1 - The first process started in a Linux container, responsible for managing all other processes.
+- \`Docker\` - Open-source platform for deploying, scaling, and managing applications in containers.
+- \`Docker Compose\` - A tool for defining and running multi-container applications with a YAML configuration file.
+- \`Docker Engine\` - The core component responsible for running and managing Docker containers.
+- \`Containerd\` - Lightweight, extensible container runtime for managing containers' lifecycle.
+- \`PID 1\` - The first process started in a Linux container, responsible for managing all other processes.
+- \`Namespaces\` - Linux kernel feature that isolates system resources for containers.
+- \`Cgroups\` - Control groups that manage resource allocation and usage for containers.
 
-• Namespaces - Linux kernel feature that isolates system resources for containers.
+---
 
-• Cgroups - Control groups that manage resource allocation and usage for containers.
+## 💻 Technologies Used
 
-💻 Technologies Used
-• Nginx - Web server and reverse proxy for handling HTTP traffic.
+- \`Nginx\` - Web server and reverse proxy for handling HTTP traffic.
+- \`MariaDB\` - Open-source relational database management system.
+- \`WordPress\` - Open-source content management system.
+- \`FTP\` - Protocol for transferring files over a network.
+- \`Redis\` - In-memory data structure store for caching.
+- \`Adminer\` - Database management tool.
+- \`Portainer\` - Docker management UI for containerized applications.
 
-• MariaDB - Open-source relational database management system.
+---
 
-• WordPress - Open-source content management system.
+## 🔧 Make Commands
 
-• FTP - Protocol for transferring files over a network.
+- **Compile the project**:
+  \`\`\`bash
+  make
+  \`\`\`
 
-• Redis - In-memory data structure store for caching.
+- **Compile with bonus services**:
+  \`\`\`bash
+  make bonus
+  \`\`\`
 
-• Adminer - Database management tool.
+---
 
-• Portainer - Docker management UI for containerized applications.
-
-🔧 Make Commands
-Compile the project:
-
-bash
-Copy code
-make
-Compile with bonus services:
-
-bash
-Copy code
-make bonus
-🔖 Tags
-• Docker
-• Containerization
-• Infrastructure as Code
-• System Administration
-• Nginx
-• MariaDB
-• Redis
-• WordPress
-• Virtual Machines
-• DevOps
+## 🔖 Tags
+- \`Docker\`
+- \`Containerization\`
+- \`Infrastructure as Code\`
+- \`System Administration\`
+- \`Nginx\`
+- \`MariaDB\`
+- \`Redis\`
+- \`WordPress\`
+- \`Virtual Machines\`
+- \`DevOps\`
